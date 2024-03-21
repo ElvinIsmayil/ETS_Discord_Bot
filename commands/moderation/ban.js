@@ -11,7 +11,7 @@ module.exports = {
         if (member){
             const memberTarget = message.guild.members.cache.get(member.id);
             memberTarget.ban();
-            message.channel.send('User has been banned');
+            message.channel.send('User has been jerked off');
         }else{
             message.channel.send('You could not ban the user');
         }
